@@ -1,0 +1,66 @@
+// Sass Variables
+$colorbackground: #ffeae5;
+$coloraccent: #4c0e00;
+$colortext: #f1f3f4;
+$baseFont: Verdana, Helvetica, sans-serif;
+$secFont: "Comic Sans MS", cursive;
+$bg2:blue;
+
+//Mix-In Demo-ey stuff
+
+
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+//Page Styles Begin
+container{
+    clear: both;
+    margin: 0;
+    padding: 0;
+    height: 1080px;
+    width: auto;
+    content: left;
+    text-align: center;
+    float: left;
+}
+//Navigation
+ul {
+    list-style-type: none;
+}
+nav {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    background: $coloraccent;
+    
+}
+nav ul{
+    padding: 20px;
+}
+nav li{
+    display: inline-block;
+    padding: 20px;
+    background: blue;
+}
+
+//Header
+
+
+//Main Body
+
+
+//Footer
+footer{
+    text-align: center;
+    clear: both;
+    background-color: $colorbackground;
+    width: 100%;
+    padding: 10px;
+    margin: 0;
+}
+.info{
+    background-color: aqua;
+}
